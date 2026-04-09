@@ -64,7 +64,7 @@ const Contact = () => {
                 style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg)' }}
                 allowFullScreen
                 loading="lazy"
-                title="Al Haay Perfume Location"
+                title="Al Hay Perfume Location"
               />
             </div>
           </motion.div>

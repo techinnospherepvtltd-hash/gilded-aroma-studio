@@ -27,7 +27,7 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link to="/" className="font-display text-xl lg:text-2xl tracking-[0.15em] text-gradient-gold">
-            AL HAAY
+            AL HAY
           </Link>
 
           {/* Desktop nav */}
