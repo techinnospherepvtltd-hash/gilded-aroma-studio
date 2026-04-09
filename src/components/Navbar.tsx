@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { ShoppingBag, Menu, X } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoImg from '@/assets/logo-alhay.png';
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -26,8 +27,8 @@ const Navbar = () => {
           </button>
 
           {/* Logo */}
-          <Link to="/" className="font-display text-xl lg:text-2xl tracking-[0.15em] text-gradient-gold">
-            AL HAY
+          <Link to="/" className="flex items-center">
+            <img src={logoImg} alt="Al Hay Perfume" className="h-10 lg:h-14 w-auto" />
           </Link>
 
           {/* Desktop nav */}
