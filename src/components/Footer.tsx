@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Mail, MapPin, Phone } from 'lucide-react';
+import logoImg from '@/assets/logo-alhay.png';
 
 const Footer = () => (
   <footer className="bg-charcoal border-t border-border">
@@ -7,7 +8,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Brand */}
         <div>
-          <h3 className="font-display text-2xl text-gradient-gold mb-4">AL HAY</h3>
+          <img src={logoImg} alt="Al Hay Perfume" className="h-12 w-auto mb-4" loading="lazy" />
           <p className="text-muted-foreground font-body text-sm leading-relaxed">
             Crafting luxury fragrances inspired by the rich heritage of Arabian perfumery. Every bottle tells a story of elegance and refinement.
           </p>
